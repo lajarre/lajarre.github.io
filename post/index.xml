@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on no notation notes</title>
+    <link>https://16h30s.com/post/</link>
+    <description>Recent content in Posts on no notation notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 10 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://16h30s.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Noes on Alan Kay @ CodeX FutureLaw 2021</title>
+      <link>https://16h30s.com/post/alan-kay-codex-futurelaw-2021/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://16h30s.com/post/alan-kay-codex-futurelaw-2021/</guid>
+      <description>Alan Kay Alan Kay&amp;rsquo;s keynote at start of CodeX FutureLaw conference on 2021-04-08.
+Kay says we need to draw on atavistic tendencies, especially the need for stories to be made and shared (campfire image).
+I believe he is saying that trying to restrain (making humans fully rational agents) them is pointless.
+He believes explanation and learning assisted by computers is essential.
+Indeed, coronavirus pandemia and ongoing CO2 crises are wrongly understood, humans have failed to learn on things that matter.</description>
+    </item>
+    
+    <item>
+      <title>Synthesis and comments on Cybernetics by N. Wiener</title>
+      <link>https://16h30s.com/post/n.wiener-cybernetics/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://16h30s.com/post/n.wiener-cybernetics/</guid>
+      <description>Compte-rendu par chapitre I. Newtonian and Bergsonian Time p32. Newtonian time is defined as the time variable of the physical laws, defined as a &amp;ldquo;formal set of postulates and a closed mechanics&amp;rdquo;.
+💡 The transformation of the variable into its negative has no effect on the mechanics. I believe it&amp;rsquo;s important to notice that this holds formally pretty obviously (after all, any purely formal theory will have the characteristics decided by its &amp;ldquo;designer&amp;rdquo;).</description>
+    </item>
+    
+  </channel>
+</rss>
