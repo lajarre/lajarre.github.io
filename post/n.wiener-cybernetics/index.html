@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="generator" content="Hugo 0.84.4" />
+  <meta name="generator" content="Hugo 0.99.1" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Alexandre Hajjar">
+  <meta name="author" content="lajarre">
   <meta property="og:url" content="https://www.16h30s.com/post/n.wiener-cybernetics/">
 
   <title>Synthesis and comments on Cybernetics by N. Wiener - no notation notes</title>
@@ -54,7 +54,7 @@ by the scientist studying this system.</p>
 any future time is a probability distribution of the constrants of the system…</p>
 </blockquote>
 <p>p34. He asks the question of <em>&ldquo;Why the unidrectional thermodynamics which is based on experimental
-terristrial observations stand us in such good stead in astrophysics?&quot;</em>. The explanation is said to
+terristrial observations stand us in such good stead in astrophysics?&rdquo;</em>. The explanation is said to
 be &ldquo;not too obvious&rdquo;, and I haven&rsquo;t found it clear enough to be convinced. It goes along these
 lines: if we imagine a star that is doing the inverse of radiating light to us, we either couldn&rsquo;t
 see it, either we would need to be doing our measurement process in time-reverse, which is
@@ -209,9 +209,9 @@ normalized this using probability.</p>
 <p>Determining the information gained by fixing one or more variables in a problem.<br>
 A priori distrib: <code>u(x)dx = 1/√2πa exp(-xˆ2/2a) dx</code>.<br>
 A posteriori, with <code>u + v = w</code>:</p>
-<pre><code>u(x)v(w-x)dx = 1/√2πa exp(-xˆ2/2a) 1/√2πb exp(-(w-x)ˆ2/2b) dx
+<pre tabindex="0"><code>u(x)v(w-x)dx = 1/√2πa exp(-xˆ2/2a) 1/√2πb exp(-(w-x)ˆ2/2b) dx
 </code></pre><p><em>Excess information</em> is <code>- old apriori + new aposteriori</code>:</p>
-<pre><code>excess information = - ∫ulog2(u)du + ∫u(x)v(w-x)log2u(x)v(w-x))dx
+<pre tabindex="0"><code>excess information = - ∫ulog2(u)du + ∫u(x)v(w-x)log2u(x)v(w-x))dx
 </code></pre><p>We reach conclusions on the message versus noise question:</p>
 <blockquote>
 <p><strong>the information carried by a precise message in the absence of a noise is infinite.</strong>
@@ -252,21 +252,21 @@ Compute amount of information we have of the future beyond a certain point <code
 <p>p70. Study of <em>Brownian motion</em> based systems and their prediction.</p>
 <p><em>Brownian motion</em>: mean square motion in direction proportional to length of time, motions
 time-uncorrelated.</p>
-<pre><code>0    -&gt; t1: ∆x1
+<pre tabindex="0"><code>0    -&gt; t1: ∆x1
 tn-1 -&gt; tn: ∆xn
 </code></pre><p>Probability that particles lie in <code>[x1, x1+dx]</code> at t1 &amp; … &amp; <code>[xn, xn + dx]</code> at tn</p>
-<pre><code>= exp[-x1^2/2t1 - (x2 - x1)^2/2(t2 - t1)…]/√[(2π)^n t1(t2 - t1)…] dx1dx2…
+<pre tabindex="0"><code>= exp[-x1^2/2t1 - (x2 - x1)^2/2(t2 - t1)…]/√[(2π)^n t1(t2 - t1)…] dx1dx2…
 </code></pre><p>Set of paths correponding to the ≠ possible Brownian motions can depend on param <code>α ∈ [0, 1]</code> so
 that each path is a function of <code>x(t, α)</code> and where the &ldquo;probability that a path lies in a certain
 set S is the same as the measure of the set of values of α corresponding to paths in S&rdquo;.</p>
 <p>He proves:</p>
-<pre><code>∫0-&gt;1[x(t1, α)x(t2, α)…x(tn, α)]dα = ΣΠ∫0-&gt;1[x(tj, α)x(tk, α)]dα
+<pre tabindex="0"><code>∫0-&gt;1[x(t1, α)x(t2, α)…x(tn, α)]dα = ΣΠ∫0-&gt;1[x(tj, α)x(tk, α)]dα
 </code></pre><blockquote>
 <p>when we know the averages of the products of x(tj, α) by pairs, we know the averages of all
 polynomials in these quantities, and thus their entire statistical distribution.</p>
 </blockquote>
 <p>p72. We look at <code>∫K(t)dξ(t, γ)</code>, <code>K</code> any function with <code>ξ</code> running <code>t</code> on ℝ with</p>
-<pre><code>ξ(t, γ) = ξ(t, α, β)
+<pre tabindex="0"><code>ξ(t, γ) = ξ(t, α, β)
 ξ(t, α, β) = x(t, α) if t &gt;= 0
 ξ(t, α, β) = x(-t, β) if t &lt; 0
 </code></pre><p><code>γ</code> being a mapped from ℝ² onto ℝ (via diagonalisation).</p>
@@ -275,9 +275,9 @@ the <em>autocorrelation function with lag</em> <code>τ</code> of <code>K</code>
 <p><em>Autocorrelation function</em>: <code>Φ(τ) = ∫K(s)K(s + τ)ds</code></p>
 <p>We can thus show that for any bounded measurable <em>functional</em> (quantity depending on the netire
 distribution of the values of the function of <code>t</code>), we have</p>
-<pre><code>lim σ-&gt;∞ ∫0-&gt;1[ℱ(f(t, γ))ℱ(f(t + σ, γ))]dγ = {∫0-&gt;1[ℱ(f(t, γ))]dγ}²
+<pre tabindex="0"><code>lim σ-&gt;∞ ∫0-&gt;1[ℱ(f(t, γ))ℱ(f(t + σ, γ))]dγ = {∫0-&gt;1[ℱ(f(t, γ))]dγ}²
 </code></pre><p>and by <em>ergodic theorem</em>:</p>
-<pre><code>∫0-&gt;1[ℱ(f(t, γ))]dγ = lim T-&gt;∞ 1/T ∫-T-&gt;0[ℱ(f(t, γ))]dt
+<pre tabindex="0"><code>∫0-&gt;1[ℱ(f(t, γ))]dγ = lim T-&gt;∞ 1/T ∫-T-&gt;0[ℱ(f(t, γ))]dt
 </code></pre><p>Thus</p>
 <blockquote>
 <p>we can almost always read off any statistical parameter of such a time series, and indeed any
@@ -285,7 +285,7 @@ denumerable set of statistical parameters, from the past history of a single exa
 </blockquote>
 <p>p76. &ldquo;Try to build up a time series as general as possible from the simple Brownian motion series.&rdquo;</p>
 <p>Time series in the form:</p>
-<pre><code>∫a-&gt;b [exp(i ∫K(t + τ, λ)dξ(τ, γ))] dλ
+<pre tabindex="0"><code>∫a-&gt;b [exp(i ∫K(t + τ, λ)dξ(τ, γ))] dλ
 </code></pre><p>This is</p>
 <blockquote>
 <p>a first step toward the solution of the problem of reducing a large class of time series to a
@@ -328,7 +328,7 @@ be used with an electric circuit as mathematical procedures to enable statistici
 best results with statistically impure data.</p>
 </blockquote>
 <p>p92. Caveat: the statistical theories here involve a <em>full knowledge of the pasts</em>. To go further,
-we have to extend existing methods of <em>sampling</em>, which most probably requires Bayes' law.</p>
+we have to extend existing methods of <em>sampling</em>, which most probably requires Bayes&rsquo; law.</p>
 <p>p92. Discussion on quantum mechanics. Progression:</p>
 <ul>
 <li>Newtonian physics: the sequence of physical phenomena is completely determined by all positions
@@ -376,7 +376,7 @@ such operators of the past have this form, or limit of a sequence of.</p>
 <p>=&gt; Operator is <code>exp(zt) ∫0-&gt;∞ a(τ)exp(-zt) dτ = exp(zt) A(z)</code></p>
 <p><code>A(z)</code> is the <em>representation of the Operator as a function of frequency</em>.</p>
 <p>Remarks on the mathematical content:</p>
-<pre><code>|A(x + iy)| &lt;= √[1/2x ∫0-&gt;∞ |a(τ)|² dτ ]
+<pre tabindex="0"><code>|A(x + iy)| &lt;= √[1/2x ∫0-&gt;∞ |a(τ)|² dτ ]
 </code></pre><p>=&gt; A is bounded in every half-plane <code>x &gt;= ε &gt; 0</code> with <code>A(iy)</code> the boundary values.</p>
 <p>💡 Indeed, <code>x -&gt;+ 0</code> defines the &ldquo;max boundary&rdquo; <code>∀ x&gt;0</code> as per the expression above, and this is
 <code>A(x + iy) -&gt;+ A(iy)</code>.</p>
@@ -390,7 +390,7 @@ what is the link between right normals to <code>A(iy)</code> and this.</p>
 <p><code>Y = X - λAY</code> with X the input, Y the input to the motor, the motor operator is A, and multiplier
 operator is λ.</p>
 <p>The motor output is <code>A Y = A/(1 + λA) X</code>, <code>A/(1 + λA)</code> being the operator with a diagram of</p>
-<pre><code>u + iv = A(iy)/(1 + λA(iy))
+<pre tabindex="0"><code>u + iv = A(iy)/(1 + λA(iy))
 </code></pre><ul>
 <li>∞ is an interior point iff -1/λ is an interior point of A(iy), which corresponds to unrestrained
 and increasing oscillation.</li>
@@ -501,7 +501,7 @@ To get N as large as possible and keep <code>2^[I/N]</code> an integer, we use <
 portions of the scale, and in which the probability of an imperfect knowledge as to which half of
 the scale contains the observation is made vanishingly small</p>
 </blockquote>
-<pre><code>v = v0 + 1/2 v1 + 1/2² v2 + … + 1/2ⁿ vn + …
+<pre tabindex="0"><code>v = v0 + 1/2 v1 + 1/2² v2 + … + 1/2ⁿ vn + …
 </code></pre><p>with vn in {0, 1}.</p>
 <p>p117. Different types of machines:</p>
 <ul>
@@ -690,7 +690,7 @@ elements, tranformed by transformations <code>T</code>. If we integrate these qu
 have a quantity that &ldquo;<strong>will be identical</strong> for all sets S interchangeable with one another under
 the trasnformations of the group, that is, <strong>for all sets S which have in some sense the same form
 or <em>Gestalt</em></strong>&rdquo;.</p>
-<p>p139. Notices that sound-enabled reading for blind (&quot;<em>prothesis</em> of one lost sense by another&rdquo;) is
+<p>p139. Notices that sound-enabled reading for blind (&quot;<em>prothesis</em> of one lost sense by another&quot;) is
 possible based on the &ldquo;<em>visual Gestalt</em>&rdquo; processes like page alignment, traversing from one line to
 anohter…</p>
 <p>Produces a tentative sound encoding of letters, a bit like Braille.</p>
@@ -819,7 +819,7 @@ another should suffer first&rdquo;.</p>
 <p>💡 That&rsquo;s evidence for the cybernetic view of the brain.</p>
 <blockquote>
 <p>The cerebral functions are not distributed evenly over the two hemispheres, and one of these, the
-doinant hemisphere, as the lions' share of the higher functions.</p>
+doinant hemisphere, as the lions&rsquo; share of the higher functions.</p>
 </blockquote>
 <p>p153. Hemispheres</p>
 <p>Damages in the non-dominant hemisphere have very small consequences on higher functions. For
@@ -979,7 +979,7 @@ danger point has come.</p>
 💡 Maybe not a strong argument. Rather see Hamming lectures.</p>
 <p>p176. Discusses the history of the dangers given to machine, in older tales in the form of the
 problem of magic, talking about &ldquo;the moral situation of the magician&rdquo;.</p>
-<p>Mentions Goethe&rsquo;s &ldquo;The Sorcerer&rsquo;s Apprentice&rdquo;, Arabian Nights' genie and W. W. Jacobs' fable of the
+<p>Mentions Goethe&rsquo;s &ldquo;The Sorcerer&rsquo;s Apprentice&rdquo;, Arabian Nights&rsquo; genie and W. W. Jacobs&rsquo; fable of the
 monkey&rsquo;s paw.</p>
 <blockquote>
 <p>In all these stories the point is that the agencies of magic are literal-minded ; and that if we
@@ -1202,7 +1202,7 @@ de la pensée).</li>
       <footer class="site-footer">
         <span itemscope itemtype="http://schema.org/Person">
           <link itemprop="url" href="https://www.16h30s.com/">
-          <span itemprop="name">Alexandre Hajjar</span>
+          <span itemprop="name">lajarre</span>
 
           <br>
 
@@ -1214,7 +1214,7 @@ de la pensée).</li>
         </span>
 
         
-        <br>© 2021
+        <br>© 2022
       </footer>
     </div>
 

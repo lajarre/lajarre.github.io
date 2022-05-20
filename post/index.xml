@@ -5,7 +5,19 @@
     <link>https://www.16h30s.com/post/</link>
     <description>Recent content in Posts on no notation notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.16h30s.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.16h30s.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.16h30s.com/post/conway-free-will-lectures/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.16h30s.com/post/conway-free-will-lectures/</guid>
+      <description>This is a quick summary of my main takeaways from the Free Will lectures given by John Conway at Princeton somewhere in 2009.
+Videos can be found on Youtube (each has a duration of 1 hour):
+ https://www.youtube.com/watch?v=tmx2tpcdKZY https://www.youtube.com/watch?v=LPa4nVL09D4 https://www.youtube.com/watch?v=nT-Ra8sc6-0 https://www.youtube.com/watch?v=Kf_BGNZG-Xw https://www.youtube.com/watch?v=8TVZDY2aN6s https://www.youtube.com/watch?v=IgvkhgE1Cps  This is all about the Free Will theorem by Conway and Kochen.
+This series of lectures give a very approachable walkthrough of the proof for the theorem, as well as a pretty concrete confrontation to the philosophical consequences of such a theorem.</description>
+    </item>
+    
     <item>
       <title>Noes on Alan Kay @ CodeX FutureLaw 2021</title>
       <link>https://www.16h30s.com/post/alan-kay-codex-futurelaw-2021/</link>
