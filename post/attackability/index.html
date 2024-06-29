@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Hugo 0.128.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <meta property="og:url" content="https://www.16h30s.com/post/attackability/">
+
+  <title>Theoretical attacks in agenda setting - no notation notes</title>
+  <meta property="og:title" content="Theoretical attacks in agenda setting - no notation notes">
+  <meta property="og:type" content="article">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/highlight.css">
+  <link rel="stylesheet" href="/css/journal.css">
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="no notation notes">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="site-nav">
+      <a href="/">Index</a>
+    </nav>
+
+
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">Theoretical attacks in agenda setting</h1>
+      <time class="post-date" datetime="2024-06-29 00:00:00 UTC">29 Jun 2024</time>
+    </header>
+
+    <p>Some reflections on the role of theoretical attacks within the
+cryptoeconomic-scientific method and how this relates to real-world institutions
+such as the state-of-the-art and an ecocystem.</p>
+<h2 id="the-cryptoeconomic-method">The cryptoeconomic method</h2>
+<h3 id="history">History</h3>
+<p>First, there was <a href="https://bitcointalk.org/index.php?topic=53855.msg642768#msg642768">pulling a Satoshi</a>, producing together a protocol and its implementation.</p>
+<p>Then, there was theoretical attacks in the wild (starting with <a href="https://hackingdistributed.com/2013/11/04/bitcoin-is-broken/">selfish
+mining</a>),
+contradicting the current doxa on cryptoeconomic guarantees brought by the
+system.</p>
+<p>Soon after, there was a <a href="https://freedom-to-tinker.com/2015/03/31/bitcoin-and-game-theory-were-still-scratching-the-surface/">call to
+action</a>
+to bring together researchers around making game theoretical sense of Bitcoin.</p>
+<p>Once the industry and venture capital started abundantly funding research,
+came <a href="https://x.com/Tim_Roughgarden/status/1749600309750514139">impossibility
+results</a>, leaving no
+room for interpretation, aligning the doxa with what mathematics have to say.</p>
+<h3 id="missing-empirical-data">Missing empirical data</h3>
+<p><em>Attacks as epistemological replacements for empiricism to support a theory.</em></p>
+<p>Taking as example my recent research on Stackelberg attacks on Uniswap
+governance [link to come], it all starts with a hunch that the tension between
+liquidity providers&rsquo; (LPs) interests and UNI tokenholders along with the
+possibility of a fork of Uniswap&rsquo;s smart contracts create an instable
+equilibrium. Continuous participation from LPs seems not incentive compatible
+once forking is included in the game. This intuition is then formalized,
+analyzed and verified, using a mathematical model.</p>
+<p>Then, an attack by LPs on UNI tokenholders is concretized by deriving an
+algorithm to be run within a smart contract (called Grim Forker) that should be
+invoked by LPs to perform the attack, which is valuable to them. The tension
+that is described by our mathematical model, basically <code>u(LP | fee = 0) &gt; u(LP | fee &gt; 0)</code>, is made real by this attack concretized in code.</p>
+<p>We would have loved to present real-world data on how the discrepancy has made
+LP act by themselves, but there is none we found (and probably to be found). The
+reason is that transaction &amp; coordination costs to perform such attacks are
+high.</p>
+<p>And indeed, the main point of building a new smart contract like Grim Forker is
+to reduce coordination costs among multiple parties.</p>
+<p>Another example of such an approach is used by the authors of the <a href="https://arxiv.org/abs/2311.03530">Voting Block
+Entropy</a> paper that, once described they have
+described the VBE theoretical framework and its implications on instability of
+governance, leverage Dark DAOs to display an effective attack concretizing this
+instability.</p>
+<h2 id="attack--patch">Attack = patch</h2>
+<p><em>Rather than “Attack then Patch” from <a href="https://arxiv.org/abs/1905.08595">[Azouvi and Hicks, SoK
+2023]</a>.</em></p>
+<h3 id="positive-attacks">Positive attacks</h3>
+<p>Based on the previous description, I&rsquo;ll suggest a basic framework: <strong>(1)
+Intuition, (2) Theory, (3) Attackability</strong>.</p>
+<ol>
+<li>Intuition:
+<ul>
+<li>Grim Forker: There is a discrepancy in utility for LPs between an AMM with
+protocol fee and its fork without fee, so there “must be” a way to exploit
+this by LPs.</li>
+<li>Selfish Mining: Bitcoin protocol doesn’t fully account for the rational,
+selfish behavior of miners, notably in terms of collusion and withholding
+of information, so there “must be” a way to exploit this by Miners.</li>
+</ul>
+</li>
+<li>Theory:
+<ul>
+<li>Grim Forker: The modeling effort and related Stackelberg analysis. The
+modeling efforts allows measuring the intuitive discrepancy.</li>
+<li>Selfish Mining: Modeling miners as rational agents.</li>
+</ul>
+</li>
+<li>Attack strategy:
+<ul>
+<li>Grim Forker: the new “Damocles sword” strategy by LPs, enabled by Grim
+Forker contracts.</li>
+<li>Selfish Mining: the Selfish Mining strategy by Miners.</li>
+</ul>
+</li>
+</ol>
+<p>Note: an important methodological question in such a process is thus to prevent
+theory-making as being &ldquo;telegraphed&rdquo; by the intuition, thus failing to
+scientifically validate it.</p>
+<p>We use here the term _attack strategy which relates to the theory to make a
+distinction with <em>attack</em> which is an actual implementation and instanciation of
+such a strategy.</p>
+<h3 id="meta-game-updating-the-state-of-the-art">Meta-game: updating the State of the Art</h3>
+<p>If a Theory:</p>
+<ul>
+<li>is a good model of the protocol under consideration (formally correct,
+represents satisfactorily the network, embeds previous SotA),</li>
+<li>allows deriving a sound theoretical attack (derivable from the theory and its
+practical requirements are achievable (costs…)),</li>
+</ul>
+<p>Then it constitutes a valuable patch to the State of the Art:</p>
+<ul>
+<li>it is a patch because it adds to the SotA by filling in formal weaknesses
+(where previous SotA wasn’t able to describe an attack),</li>
+<li>it is valuable because the attack is deemed achievable within real-world
+conditions (so not updating the SotA with the Theory would endanger it).</li>
+</ul>
+<p>We’ll call these theories Successful Attackability Theories.</p>
+<h3 id="patch-theory-via-attacks-ecosystem-via-memes">Patch theory via attacks, ecosystem via memes</h3>
+<p>Successful attackability of a theory, in the sense defined above, justifies why
+such a theory has reach and should spread-out as a meme.</p>
+<p>So, the attack designer is really saying “dear research  community, you’d better
+all update your theories to include mine, otherwise you’re at risk of designing
+mechanisms that are prey to this attack”. This, in reality, applies not only to
+researchers but to all actors in a given ecosystem: agenda setters, founders,
+developers, thought leaders, regulators…</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Successful attackability justify patching formal shortcomings even entirely in
+counterfactual space, when no empirical data is available.</p>
+<p>It is thus a powerful instrument to the agenda setter.</p>
+
+
+  </article>
+
+
+      <footer class="site-footer">
+        <span itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="https://www.16h30s.com/">
+          <span itemprop="name"></span>
+
+          <br>
+
+          
+
+          
+
+          
+        </span>
+
+        
+        <br>© 2024
+      </footer>
+    </div>
+
+  <script src="/js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  </body>
+</html>
+

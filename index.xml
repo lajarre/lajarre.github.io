@@ -6,8 +6,15 @@
     <description>Recent content on no notation notes</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.16h30s.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theoretical attacks in agenda setting</title>
+      <link>https://www.16h30s.com/post/attackability/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.16h30s.com/post/attackability/</guid>
+      <description>Some reflections on the role of theoretical attacks within the cryptoeconomic-scientific method and how this relates to real-world institutions such as the state-of-the-art and an ecocystem.&#xA;The cryptoeconomic method History First, there was pulling a Satoshi, producing together a protocol and its implementation.&#xA;Then, there was theoretical attacks in the wild (starting with selfish mining), contradicting the current doxa on cryptoeconomic guarantees brought by the system.&#xA;Soon after, there was a call to action to bring together researchers around making game theoretical sense of Bitcoin.</description>
+    </item>
     <item>
       <title>Takeaways from the Free Will lectures by John Conway</title>
       <link>https://www.16h30s.com/post/conway-free-will-lectures/</link>
