@@ -4,42 +4,23 @@
     <title>no notation notes</title>
     <link>https://www.16h30s.com/</link>
     <description>Recent content on no notation notes</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.16h30s.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.16h30s.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Takeaways from the Free Will lectures by John Conway</title>
       <link>https://www.16h30s.com/post/conway-free-will-lectures/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.16h30s.com/post/conway-free-will-lectures/</guid>
-      <description>This is a quick summary of my main takeaways from the Free Will lectures given by John Conway at Princeton somewhere in 2009.
-Videos can be found on Youtube (each has a duration of 1 hour):
- https://www.youtube.com/watch?v=tmx2tpcdKZY https://www.youtube.com/watch?v=LPa4nVL09D4 https://www.youtube.com/watch?v=nT-Ra8sc6-0 https://www.youtube.com/watch?v=Kf_BGNZG-Xw https://www.youtube.com/watch?v=8TVZDY2aN6s https://www.youtube.com/watch?v=IgvkhgE1Cps  This is all about the Free Will theorem by Conway and Kochen.
-This series of lectures give a very approachable walkthrough of the proof for the theorem, as well as a pretty concrete confrontation to the philosophical consequences of such a theorem.</description>
+      <description>This is a quick summary of my main takeaways from the Free Will lectures given by John Conway at Princeton somewhere in 2009.&#xA;Videos can be found on Youtube (each has a duration of 1 hour):&#xA;https://www.youtube.com/watch?v=tmx2tpcdKZY https://www.youtube.com/watch?v=LPa4nVL09D4 https://www.youtube.com/watch?v=nT-Ra8sc6-0 https://www.youtube.com/watch?v=Kf_BGNZG-Xw https://www.youtube.com/watch?v=8TVZDY2aN6s https://www.youtube.com/watch?v=IgvkhgE1Cps This is all about the Free Will theorem by Conway and Kochen.&#xA;This series of lectures give a very approachable walkthrough of the proof for the theorem, as well as a pretty concrete confrontation to the philosophical consequences of such a theorem.</description>
     </item>
-    
-    <item>
-      <title>Notes on Alan Kay @ CodeX FutureLaw 2021</title>
-      <link>https://www.16h30s.com/post/alan-kay-codex-futurelaw-2021/</link>
-      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.16h30s.com/post/alan-kay-codex-futurelaw-2021/</guid>
-      <description>Alan Kay Alan Kay&amp;rsquo;s keynote at start of CodeX FutureLaw conference on 2021-04-08.
-   Kay says we need to draw on atavistic tendencies, especially the need for stories to be made and shared (campfire image).
-I believe he is saying that trying to restrain (making humans fully rational agents) them is pointless.
-He believes explanation and learning assisted by computers is essential.
-Indeed, coronavirus pandemia and ongoing CO2 crises are wrongly understood, humans have failed to learn on things that matter.</description>
-    </item>
-    
     <item>
       <title>Synthesis and comments on Cybernetics by N. Wiener</title>
       <link>https://www.16h30s.com/post/n.wiener-cybernetics/</link>
       <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://www.16h30s.com/post/n.wiener-cybernetics/</guid>
-      <description>Compte-rendu par chapitre I. Newtonian and Bergsonian Time p32. Newtonian time is defined as the time variable of the physical laws, defined as a &amp;ldquo;formal set of postulates and a closed mechanics&amp;rdquo;.
-💡 The transformation of the variable into its negative has no effect on the mechanics. I believe it&amp;rsquo;s important to notice that this holds formally pretty obviously (after all, any purely formal theory will have the characteristics decided by its &amp;ldquo;designer&amp;rdquo;).</description>
+      <description>Compte-rendu par chapitre I. Newtonian and Bergsonian Time p32. Newtonian time is defined as the time variable of the physical laws, defined as a &amp;ldquo;formal set of postulates and a closed mechanics&amp;rdquo;.&#xA;💡 The transformation of the variable into its negative has no effect on the mechanics. I believe it&amp;rsquo;s important to notice that this holds formally pretty obviously (after all, any purely formal theory will have the characteristics decided by its &amp;ldquo;designer&amp;rdquo;).</description>
     </item>
-    
   </channel>
 </rss>
